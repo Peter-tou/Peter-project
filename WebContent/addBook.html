@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>--添加图书信息--</title>
+</head>
+<body>
+	<h1 align="center">添加书籍基本信息</h1>
+	<form action="AddBookServlet" method="post" >
+	
+			<table  border="1" align="center">
+				<tr>
+					<th>识别码:</th>
+					<th><input type="text" name="isbn"></th>
+				</tr>
+				<tr>
+					<th>书名:</th>
+					<th><input type="text" name="bookname"></th>
+				</tr>
+				<tr>
+					<th>页数:</th>
+					<th><input type="text" name="pages"></th>
+				</tr>
+				<tr>
+					<th>作者:</th>
+					<th><input type="text" name="author"></th>
+				</tr>
+				<tr>
+					<th>出版社:</th>
+					<th><input type="text" name="press"></th>
+				</tr>
+				<tr>
+					<th>价格:</th>
+					<th><input type="text" name="price"></th>
+				</tr>
+				<tr>
+					<th><input type="submit" value="添加图书" 
+						style="width: 100px; height: 50px"></th>
+				</tr>
+
+			</table>
+	</form>
+
+</body>
+</html>
